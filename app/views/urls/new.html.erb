@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mohitkumar</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js' %>
+
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%=link_to "home", root_path %>
+<%=link_to "About Us", about_path %>
+
+<%= yield %>
+
+
+
+<p>Sign Up <%=link_to "here", "http://google"%></p>
+
+<h1>Urls#new</h1>
+<p class="mohit">Find me in app/views/urls/new.html.erb</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
